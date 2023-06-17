@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Ubuntu&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto+Slab&family=Ubuntu&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab',sans-serif;
+}
+
+.Navbar {
+    font-family: 'Merriweather';
+    height: 4rem;
+    width: 100%;
+    background-image: linear-gradient(45deg, #e7e9ef8f, #dce1efbf);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    font-family: 'Merriweather';
+    background:-webkit-linear-gradient(45deg, #7629ff, #273bab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    font-weight: 500;
+   
+    /* text-shadow: 0 0 3px black, 0 0 8px black; */
+    margin-left: 1rem;
+
+}
+.items{
+    margin-right: 2rem;
+}
+
+.items a {
+    font-family: 'Merriweather';
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: black;
+
+}
+
+.items a:hover {
+    color: rgb(202, 133, 43);
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+     background-image: linear-gradient(45deg, #e7e9ef8f, #dce1efbf);
+}
+
+.image {
+    margin-left: 1rem;
+    margin-top: 2rem;
+}
+
+.content-w {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content-w p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    color: rgb(202, 133, 43);
+    font-weight: 300;
+}
+
+.content-w h1 {
+    background:-webkit-linear-gradient(45deg, #7629ff, #273bab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 300;
+    font-size: 2.5rem;
+
+}
+
+.content-w button {
+    height: 2rem;
+    width: 9rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-image: linear-gradient(45deg, #7629ff, #273bab);
+    color: beige;
+    cursor: pointer;
+}
+
+.content-w button:hover {
+
+    color: black;
+}
+
+.cards {
+    height: 20rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  
+   background-image: linear-gradient(45deg, #e7e9ef8f, #dce1efbf);
+    
+}
+
+.card1 {
+    height: 16rem;
+    width: 21rem;
+    border-radius: 15px;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+    transition: all .5s ease;
+    background-color: white;
+    margin-top: 1rem;
+
+
+}
+
+.card1:hover {
+    transform: translate3D(0, -1px, 0) scale(1.03);
+}
+
+.card2 {
+
+    height: 16rem;
+    width: 21rem;
+    /* background-color: #4169e1; */
+    margin-top: 1rem;
+    border-radius: 15px;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+    transition: all .5s ease;
+    background-color: white;
+
+
+}
+
+.card2:hover {
+    transform: translate3D(0, -1px, 0) scale(1.03);
+}
+
+.card3 {
+    height: 16rem;
+    width: 21rem;
+    /* background-color: #4169e1; */
+    border-radius: 15px;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+    transition: all .5s ease;
+    margin-top: 1rem;
+    background-color: white;
+
+}
+
+.card3:hover {
+    transform: translate3D(0, -1px, 0) scale(1.03);
+}
+
+.card1 img{
+    height:12rem;
+    margin-left :2rem;
+    margin-top: 2rem;
+}
+.card2 img{
+    width: 17rem;
+    height:12rem;
+    margin-left :2rem;
+    margin-top: 2rem;
+}
+.card3 img{
+    width: 17rem;
+    height:12rem;
+    margin-left :2rem;
+    margin-top: 2rem;
+}
+
+.heading{
+    font-family: 'Merriweather';
+    height: 3rem;
+    font-size: 1.5rem;
+    font-weight:bold;
+    padding: 0.5rem;
+    text-align: center;
+    background-image: linear-gradient(45deg, #e7e9ef8f, #dce1efbf);
+    
+}
+
+.heading:hover{
+    color:rgb(202, 133, 43);
+}
+.cards p{
+    text-align: center;
+    color: rgb(24, 23, 22);
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.cards a{
+    text-decoration: none;
+}
+.contact{
+    height: 24rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(45deg, #e7e9ef8f, #dce1efbf);
+    padding: 3rem;
+}
+.conimage {
+    height: 25rem;
+    width: 30rem;
+    margin-right: 2rem;
+}
+.con-info p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+.con-info h1{
+    color: blue;
+}
+.con-info h1:hover{
+    color: rgb(202, 133, 43);
+}
+.con-info{
+    /* background-color:aliceblue; */
+    /* height: 13rem;
+    width: 21rem;
+    padding: 1rem;
+    margin-top: 3rem;
+    color: #4169e1;
+    border-radius: 19px;
+    text-align: center; */
+
+    height: 15rem;
+    width: 21rem;
+    /* background-color: #4169e1; */
+    margin-top: 1rem;
+    border-radius: 15px;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+    transition: all .5s ease;
+    background-image: linear-gradient(#c9c9dd,#5654d7);
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+
+}
+
+.con-info:hover {
+    transform: translate3D(0, -1px, 0) scale(1.03);
+}
+
+/* Add user page */
+
+.add-user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4169e1;
+    height: 28rem;
+    width: 22rem;
+    padding: 1rem;
+    background-image: linear-gradient(45deg, #7426ff, #637afb);
+    border-radius: 15px;
+    box-shadow: 8px 14px 38px rgba(39, 44, 49, .06), 1px 3px 8px rgba(39, 44, 49, .03);
+
+    }
+.page{
+    background-image:linear-gradient(45deg, #e7e9ef8f, #dce1efbf) ;
+    height: 90vh;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 15rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.user-image img{
+    height: 20rem;
+}
+.add-user label{
+    /* margin: 5px; */
+    font-size: 16px;
+    color: black;
+    font-weight: 600;
+}
+.add-user input{
+    outline: none;
+    width: 15rem;
+    height: 25px;
+    margin: 7px;
+    padding: 3px;
+    /* font-size: 0.5rem; */
+}
+.add-user h1{
+    margin-bottom: 0.5rem;
+    font-family: 'Merriweather';
+
+}
+.add-user button{
+    height: 2rem;
+    /* border: 1px solid black; */
+    border-radius: 1px;
+    width: 8rem;
+    margin-top: 1rem;
+    color: blue; 
+    background: #eba3a3;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 17px;
+    border: none;
+}
+
+ /* All customer page */
+.customer{
+    background-image: linear-gradient(45deg, #e7e9ef8f, #dce1efbf);
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80vh;
+    border-collapse: collapse;
+    margin-top: 3rem;
+    
+}
+
+ td,th{
+    table-layout:fixed ;
+    border: 2px solid black;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+
+ }
+
+ table{
+    border-collapse: collapse;
+ }
+
+ tr:nth-child(even){
+   background-color: #dfd0d0;
+ }
+ thead{
+    background-image: linear-gradient(45deg, #7426ff, #637afb);
+ }
+
+ .customer h1{
+    margin-top:2rem;
+    font-family: 'Merriweather';
+
+
+ }
+
+td:hover{
+    background-color: #637afb;
+}
+.customer h1:hover{
+    color: #7426ff;
+}
+.transfer{
+    background-image: linear-gradient(45deg, #e7e9ef8f, #dce1efbf);
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+}
+.tran-info{
+    height: 15rem;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    /* align-content: flex-end; */
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-color: #dfd0d0;
+    padding: 2rem;
+    border-radius: 2px;
+
+}
+.tran-info input{
+    outline: none;
+    height: 19px;
+    margin: 5px;
+
+}
+.tran-info button{
+  font-size:1.2rem;
+   height: 2rem;
+   width: 8rem;
+   margin: 1rem;
+   background-image:linear-gradient(45deg,  #886eb5, #637aff);
+   border: none;
+}
+.tran-info label{
+    font-size: 17px;
+    background:-webkit-linear-gradient(45deg, #7629ff, #273bab);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.transfer h1{
+    font-family: 'Merriweather';
+
+}
+.transfer h1:hover{
+    color: #7426ff;
+}
